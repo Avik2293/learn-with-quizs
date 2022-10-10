@@ -8,7 +8,7 @@ const Roots = () => {
     const quizTypeData = useLoaderData();
     console.log(quizTypeData);
     return (
-        <QuizTypeContext.Provider value={{}}>
+        <QuizTypeContext.Provider value={quizTypeData.data}>
             <Navigation></Navigation>
             <Outlet></Outlet>
         </QuizTypeContext.Provider>
