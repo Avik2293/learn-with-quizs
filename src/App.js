@@ -2,10 +2,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import Roots from './Components/Roots';
-import Quizs from './Components/Quizs';
 import Statistics from './Components/Statistics';
 import Blog from './Components/Blog';
 import ErrorPage from './Components/ErrorPage';
+import Quizs from './Components/Quizs';
 
 const router = createBrowserRouter([
   {

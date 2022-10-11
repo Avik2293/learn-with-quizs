@@ -30,7 +30,7 @@ const Navigation = () => {
                             <rect x="14" y="11" width="7" height="12" />
                         </svg>
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                            Learn With Quizs
+                            Learn With Quiz
                         </span>
                     </Link>
                     <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -51,7 +51,7 @@ const Navigation = () => {
                                 title="Our product"
                                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                             >
-                                Topics
+                                Quizs
                             </Link>
                         </li>
                         <li>
@@ -124,7 +124,7 @@ const Navigation = () => {
                                                     <rect x="14" y="11" width="7" height="12" />
                                                 </svg>
                                                 <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                                                    Learn With Quizs
+                                                    Learn With Quiz
                                                 </span>
                                             </Link>
                                         </div>
@@ -163,7 +163,7 @@ const Navigation = () => {
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    Topics
+                                                    Quizs
                                                 </Link>
                                             </li>
                                             <li>
