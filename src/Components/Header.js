@@ -19,15 +19,15 @@ const Header = () => {
                             Quiz is always a short way to fast learning process. Quizzes can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills. They can also be televised for entertainment purposes.
                         </p>
                     </div>
-                    {/* <div className="flex flex-col items-center md:flex-row">
+                    <div className="flex flex-col items-center md:flex-row">
                         <Link
-                            to="/quizs"
+                            to="/topics"
                             aria-label=""
-                            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700 bg-red-400 p-2 rounded-lg"
                         >
                             Go For Quiz
                         </Link>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">

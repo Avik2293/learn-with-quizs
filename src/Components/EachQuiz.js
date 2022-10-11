@@ -1,7 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye, faEyeSlash } from '@fortawesome/free-regular-svg-icons';
+import { faEye } from '@fortawesome/free-regular-svg-icons';
 
 const EachQuiz = ({ question }) => {
     const handleToast = (clickedAns) => {
@@ -16,7 +16,7 @@ const EachQuiz = ({ question }) => {
     };
 
     const rightAnswer = (answer) =>{
-        console.log(answer);
+        // console.log(answer);
         toast.success(answer, { autoClose: 3000 });
     };
 
