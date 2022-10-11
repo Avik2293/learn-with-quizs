@@ -15,7 +15,7 @@ const Navigation = () => {
                         className="inline-flex items-center"
                     >
                         <svg
-                            className="w-8 text-teal-accent-400"
+                            className="w-8 text-white"
                             viewBox="0 0 24 24"
                             strokeLinejoin="round"
                             strokeWidth="2"
@@ -33,7 +33,7 @@ const Navigation = () => {
                             Learn With Quiz
                         </span>
                     </Link>
-                    <ul className="flex items-center hidden space-x-8 lg:flex">
+                    <ul className="items-center hidden space-x-8 lg:flex">
                         <li>
                             <Link
                                 to="/home"

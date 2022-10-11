@@ -5,7 +5,7 @@ import { QuizTypeContext } from './Roots';
 
 const Home = () => {
     const quizTypeData = useContext(QuizTypeContext);
-    console.log(quizTypeData.data);
+    // console.log(quizTypeData.data);
     return (
         <div>
             <Header></Header>

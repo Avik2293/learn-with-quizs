@@ -17,7 +17,7 @@ const QuizType = ({quizType}) => {
                     </p>
                     <div className="flex items-center space-x-3">
                         <Link
-                            to="/"
+                            to={`/quizs/${quizType.id}`}
                             className="text-white-600 transition-colors duration-300 hover:text-deep-purple-accent-400 bg-slate-300 rounded p-1"
                         >Let's Start
                         </Link>
