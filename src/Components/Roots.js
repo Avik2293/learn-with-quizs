@@ -1,5 +1,6 @@
 import React, { createContext } from 'react';
 import { Outlet, useLoaderData } from 'react-router-dom';
+import Footer from './Footer';
 import Navigation from './Navigation';
 
 export const QuizTypeContext = createContext({});
@@ -11,6 +12,7 @@ const Roots = () => {
         <QuizTypeContext.Provider value={quizTypeData}>
             <Navigation></Navigation>
             <Outlet></Outlet>
+            <Footer></Footer>
         </QuizTypeContext.Provider>
     );
 };
